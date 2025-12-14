@@ -1,15 +1,10 @@
 package main
 
-import (
-	"fmt"
-)
+import "fmt"
 
 func main() {
 	userInput := getUserInput()
-	fmt.Println("Вы ввели:", userInput)
-
-	result := convertCurrency(100, "USD", "RUB")
-	fmt.Println("Результат конвертации:", result)
+	fmt.Println(userInput)
 }
 
 func getUserInput() string {
