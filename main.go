@@ -6,8 +6,8 @@ import (
 
 func main() {
 
-	userInformation = getUserInput()
-
+	userInformation := getUserInput()
+	fmt.Println(userInformation)
 }
 func getUserInput() string {
 	var input string
