@@ -6,16 +6,17 @@ import (
 
 func main() {
 
-	var userInformation string
-	fmt.Print(`_Считывание ввода  виде отдельной функции_ `)
-	fmt.Println(userInformation)
-	fmt.Scan(&userInformation)
+	userInformation = getUserInput()
 
 }
 func getUserInput() string {
+	var input string
+	fmt.Scan(&input)
+	return input
 
 }
 func convertCurrency(amount float64, fromCurrency string,
 	toCurrency string) float64 {
+	return 0
 
 }
